@@ -7,3 +7,6 @@ Scrapy is based on building a DOM tree based on the HTML source and makes use of
 2. Often the news articles on a Fact Checker website are only represented by title and very short description. So scraping the article body is not possible from the original website. One solution might be, to create one spider to scrape the corresponding article hrefs and then create a second spider which scrapes the raw text information from all the article hrefs.
 
 https://towardsdatascience.com/web-scraping-news-articles-to-build-an-nlp-data-pipeline-92ec6083da2
+
+## Scrapy Selectors
+https://docs.scrapy.org/en/latest/topics/selectors.html 
