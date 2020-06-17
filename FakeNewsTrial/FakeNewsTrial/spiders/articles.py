@@ -28,8 +28,8 @@ class ArticlesSpider(scrapy.Spider):
 
     #get HTML content where the article linkes are stored
     content=response.xpath('//dic[@id="items"]//div[@class="article-meta]')
-    #here comes the tricky part: we need to define id and article-meta with respect to the classes defined in the html code of the website
-    #and the class desription might differ among the different html code of the Fact Checker websites
+    #here comes the tricky part: we need to define the tag = id and the attribute = article-meta with respect to the classes defined in the html code of the website
+    #and the tags and attributes might differ among the different html code of the Fact Checker websites
     #the html code of the example news page used in the article has the well defined div class="article-meta", and also div id, so these are the two items we need to define regarding on the Fact Chekcer
     #sourcecode of example website: view-source:https://www.trtworld.com/
 
