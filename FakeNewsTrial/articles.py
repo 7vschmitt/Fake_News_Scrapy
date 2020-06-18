@@ -42,4 +42,3 @@ class ArticlesSpider(scrapy.Spider):
 
     def parse(selfself, response):
         pass
-
