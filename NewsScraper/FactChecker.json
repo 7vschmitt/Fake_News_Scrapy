@@ -1,0 +1,16 @@
+{
+     "Corrective": {
+          "rss": "https://correctiv.org/en/rss",
+          "link": "https://correctiv.org/en/"
+     },
+
+     "FullFact": {
+          "link": "https://fullfact.org/"
+     },
+
+     "FactCheck": {
+          "rss": "https://www.factcheck.org/rss",
+          "link": "https://www.factcheck.org/"
+     }
+}
+
