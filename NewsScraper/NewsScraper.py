@@ -14,17 +14,16 @@ LIMIT = 40 #can also be higher
 data = {} #data object where scraped data will be stored
 data['factcheckers'] = {}
 
-# Loads the JSON files with news sites
+# Loads the JSON files with Fact Checkers
 with open('FactChecker.json') as data_file:
     fact_checkers = json.load(data_file)
 
 count = 1
 
-# Iterate through each news company: if RSS key is provided in the json file then use FeedParser to load rss feed
+# Iterate through each Fact Checker: if RSS key is provided in the json file then use FeedParser to load rss feed
 for fact_checker, value in fact_checkers.items():
     # If a RSS link is provided in the JSON file, this will be the first choice.
-    # Reason for this is that, RSS feeds often give more consistent and correct data.
-    # If you do not want to scrape from the RSS-feed, just leave the RSS attr empty in the JSON file.
+    # Reason for this is that, RSS feeds often give more consistent and correct data..
     if 'rss' in value:
         d = fp.parse(value['rss'])
         print("Downloading articles from ", fact_checker)
@@ -44,7 +43,7 @@ for fact_checker, value in fact_checkers.items():
                 article['link'] = entry.link
                 date = entry.published_parsed
                 article['published'] = datetime.fromtimestamp(mktime(date)).isoformat()
-                try: #here NEwspaper library comes into play to scrape the content of the links
+                try: #here Newspaper library comes into play to scrape the content of the links
                     content = Article(entry.link)
                     content.download()
                     content.parse()
