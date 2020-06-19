@@ -76,6 +76,17 @@ List of supported languages:
  ## Potential Challenges: 
  
  it actually solves the problems of scrapy. Only the languages need to be stated explicitly in the scraper.py. So probably need to create different scripts for each language (?).
+ Remove non ASCII characters by encode and decode it with regex: 
+
+```
+article = Article('https://...')
+article.download()
+article.parse()
+text = text.encode('ascii',errors='ignore')
+text = str(text) #converts `\n` to `\\n` which can then be replaced by regex
+text = re.sub('\\\.','',text) #Removes all substrings of form \\.
+```
+
  
 Nespaper can handle cookies and also pay walls. So we can actually also scrape data from Reuters
  ## Feedparser                  
