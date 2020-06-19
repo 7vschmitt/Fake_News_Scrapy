@@ -11,6 +11,11 @@
      "FactCheck": {
           "rss": "https://www.factcheck.org/rss",
           "link": "https://www.factcheck.org/"
+     },
+     "Fatabyyano Project": {
+          "rss": "https://fatabyyano.net/rss",
+          "link": "https://fatabyyano.net/"
      }
+
 }
 
