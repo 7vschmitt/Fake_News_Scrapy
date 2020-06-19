@@ -15,7 +15,7 @@ data = {} #data object where scraped data will be stored
 data['factcheckers'] = {}
 
 # Loads the JSON files with Fact Checkers
-with open('FactChecker.json') as data_file:
+with open('chinese.json') as data_file:
     fact_checkers = json.load(data_file)
 
 count = 1
@@ -44,7 +44,7 @@ for fact_checker, value in fact_checkers.items():
                 date = entry.published_parsed
                 article['published'] = datetime.fromtimestamp(mktime(date)).isoformat()
                 try: #here Newspaper library comes into play to scrape the content of the links
-                    content = Article(entry.link, keep_article_html=True)
+                    content = Article(entry.link, language='zh') #try to scrape articles in arabic
                     content.download()
                     content.parse()
                 except Exception as e:
@@ -103,7 +103,7 @@ for fact_checker, value in fact_checkers.items():
 
 # Finally it saves the articles as a JSON-file.
 try:
-    with open('scraped_articles.json', 'w') as outfile:
+    with open('scraped_articles_chinese.json', 'w') as outfile:
         json.dump(data, outfile, indent=2)
 except Exception as e: print(e)
 

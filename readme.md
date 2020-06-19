@@ -37,7 +37,7 @@ It has following features:
  - Text extraction from html
  - Top image extraction from html
  - All image extraction from html
- - Keyword extraction from text
+ - Keyword extraction from text (nlp() features only work on western languages (summarize and keywords))
  - Summary extraction from text
  - Author extraction from text
  - Google trending terms extraction
@@ -87,7 +87,7 @@ List of supported languages:
  ## Potential Challenges: 
  
  it actually solves the problems of scrapy. Only the languages need to be stated explicitly in the scraper.py. So probably need to create different scripts for each language (?).
- Remove non ASCII characters by encode and decode it with regex: 
+ Remove non ASCII characters by encode and decode it with regex, problems with special characters like apostrophe or colon: 
 
 ```
 article = Article('https://...')
