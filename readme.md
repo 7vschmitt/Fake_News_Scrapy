@@ -77,6 +77,7 @@ List of supported languages:
  
  it actually solves the problems of scrapy. Only the languages need to be stated explicitly in the scraper.py. So probably need to create different scripts for each language (?).
  
+Nespaper can handle cookies and also pay walls. So we can actually also scrape data from Reuters
  ## Feedparser                  
  Nespaper can be used in combination with the feedparser library, which has one primary public function, parse. parse takes a number of arguments, but only one is required, and it can be a URL, a local filename, or a raw string containing feed data in any format.       
  Feedparser is somehow complementary to the selectors of Scrapy, but it is not necessary to look them up seperately for each html structure of different websites, it automatically detects the different items, which can be choosen beforehand in the Scraper.py script. 

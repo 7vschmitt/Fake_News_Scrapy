@@ -104,7 +104,7 @@ for fact_checker, value in fact_checkers.items():
 # Finally it saves the articles as a JSON-file.
 try:
     with open('scraped_articles.json', 'w') as outfile:
-        json.dump(data, outfile)
+        json.dump(data, outfile, indent=2)
 except Exception as e: print(e)
 
 #in terminal: python NewsScraper.py
