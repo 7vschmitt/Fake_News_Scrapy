@@ -1,8 +1,19 @@
 # Web crawler for scraping articles from different Fact Checkers
 
-
 #Scrapy
-Scrapy is based on building a DOM tree based on the HTML source and makes use of given CSS or XPATH selectors to find matches in the tree.
+Scrapy is based on building a DOM (Document Object Model) tree based on the HTML source and makes use of given CSS or XPATH selectors to find matches in the tree.
+### Project Structure
+
+FakeNewsTrial Folder = virtual environemnt folder, inside we have the project folder (run scrapy in virtual environment)
+spiders: python program that scrapes websites 
+
+items.py: define items which you find in html code of websites, url, date, title ...
+
+middleware.py: when sending request to website we can add something to it, e.g. proxies, also can handle the response from websites which is then send to the pipeline file
+
+pipelines.py: store data in json file or data base
+
+settings.py: all bot/crawler settings, user agent (domain name), website restrictions, number of recurrent requests
 
 ## Potential Chellenges:
 1. Find appropriate selectors: when the structure of the DOM tree differs in different websites and the CSS and XPATH selectors are not existent on every website, then different spiders are necessary.

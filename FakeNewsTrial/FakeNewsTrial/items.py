@@ -10,6 +10,7 @@ import scrapy
 
 class FakenewstrialItem(scrapy.Item):
     # define the fields for your item here like:
-    url = scrapy.Field()
-    title = scrapy.Field()
+    filename = scrapy.Field()
+    text = scrapy.Field()
     pass
+
