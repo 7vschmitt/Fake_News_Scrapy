@@ -14,7 +14,7 @@ https://towardsdatascience.com/web-scraping-news-articles-to-build-an-nlp-data-p
 https://docs.scrapy.org/en/latest/topics/selectors.html 
 
 
-#Newspaper 
+# Newspaper 
 is a python library to extract and curate articles from newspapers and similar websites
 (if you want to install it use pip install newspaper3k, otherwise you get the python 2 deprecated version)
 https://newspaper.readthedocs.io/en/latest/ 
