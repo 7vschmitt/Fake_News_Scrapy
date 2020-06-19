@@ -12,10 +12,16 @@
           "rss": "https://www.factcheck.org/rss",
           "link": "https://www.factcheck.org/"
      },
+     "Reuters": {
+          "rss": "https://www.reutersagency.com/en/rss",
+          "link": "https://www.reutersagency.com/en/"
+     },
+
      "Fatabyyano Project": {
           "rss": "https://fatabyyano.net/rss",
           "link": "https://fatabyyano.net/"
      }
+
 
 }
 
