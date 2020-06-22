@@ -1,49 +1,49 @@
 {
-     "20 Minutes": {
-          "rss": "https://www.20minutes.fr/rss/une.xml",
-          "link": "https://fatabyyano.net/"
-     },
-     "Corrective": {
-          "rss": "https://correctiv.org/de/rss",
-          "link": "https://correctiv.org/de/"
-     },
-     "Corrective": {
-          "rss": "https://correctiv.org/en/rss",
-          "link": "https://correctiv.org/en/"
-     },
-     "Congo Check": {
-          "rss": "http://www.congocheck.net/rss",
-          "link": "http://www.congocheck.net/"
-     },
-     "Contejo": {
-          "rss": "https://cotejo.info/rss",
-          "link": "https://cotejo.info/"
-     },
-     "Pubawa": {
-          "rss": "https://dubawa.org/feed/",
-          "link": "https://dubawa.org/"
-     },
-     "FACTLY MEDIA & RESEARCH": {
-          "rss": "https://factly.in/rss",
-          "link": "https://factly.in/"
-     },
-     "Fact Crescendo": {
-          "rss": "https://english.factcrescendo.com/rss",
-          "link": "https://english.factcrescendo.com/"
-     },
-     "FactCheckNI": {
+  "20 Minutes": {
+    "rss": "https://www.20minutes.fr/rss/une.xml",
+    "link": "https://fatabyyano.net/"
+  },
+  "Corrective": {
+    "rss": "https://correctiv.org/de/rss",
+    "link": "https://correctiv.org/de/"
+  },
+  "Corrective": {
+    "rss": "https://correctiv.org/en/rss",
+    "link": "https://correctiv.org/en/"
+  },
+  "Congo Check": {
+    "rss": "http://www.congocheck.net/rss",
+    "link": "http://www.congocheck.net/"
+  },
+  "Contejo": {
+    "rss": "https://cotejo.info/rss",
+    "link": "https://cotejo.info/"
+  },
+  "Pubawa": {
+    "rss": "https://dubawa.org/feed/",
+    "link": "https://dubawa.org/"
+  },
+  "FACTLY MEDIA & RESEARCH": {
+    "rss": "https://factly.in/rss",
+    "link": "https://factly.in/"
+  },
+  "Fact Crescendo": {
+    "rss": "https://english.factcrescendo.com/rss",
+    "link": "https://english.factcrescendo.com/"
+  },
+  "FactCheckNI": {
     "rss": "https://factcheckni.org/rss",
     "link": "https://factcheckni.org/"
-     },
-     "GhanaFact": {
+  },
+  "GhanaFact": {
     "rss": "https://ghanafact.com/rss",
     "link": "https://ghanafact.com/"
-     },
-     "FactCheck.kz": {
+  },
+  "FactCheck.kz": {
     "rss": "https://factcheck.kz/en/",
-    "link": "https://factcheck.kz/en/"
-     },
-     "FullFact": {
+    "link":, "https://factcheck.kz/en/"
+  },
+  "FullFact": {
     "rss": "https://fullfact.org/feed/",
     "link": "https://fullfact.org/"
   },

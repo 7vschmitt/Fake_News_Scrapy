@@ -1,7 +1,7 @@
 {
      "20 Minutes": {
           "rss": "https://www.20minutes.fr/rss/une.xml",
-          "link": "https://fatabyyano.net/"
+          "link": "https://www.20minutes.fr/societe/desintox/"
      },
      "Corrective": {
           "rss": "https://correctiv.org/de/rss",
@@ -142,9 +142,5 @@
   "FactCheck": {
     "rss": "https://www.factcheck.org/rss",
     "link": "https://www.factcheck.org/"
-  },
-  "Fatabyyano Project": {
-    "rss": "https://fatabyyano.net/rss",
-    "link": "https://fatabyyano.net/"
   }
 }
