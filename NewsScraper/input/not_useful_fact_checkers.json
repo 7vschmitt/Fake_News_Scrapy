@@ -124,7 +124,75 @@
      "country": "France",
      "language": "French",
      "url": "https://www.francetvinfo.fr/"
-}
+},
+{
+     "name": "FranceInfo",
+     "country": "France",
+     "language": "French",
+     "url": "https://www.francetvinfo.fr/"
+},
+
+     "20 Minutes": {
+          "link": "https://www.20minutes.fr/societe/desintox/"
+     },
+        "Istinomer": {
+    "rss": "https://english.istinomer.rs/rss",
+    "link": "https://english.istinomer.rs/"
+  },
+        "Maldita.es": {
+    "rss": "https://maldita.es/malditobulo/rss",
+    "link": "https://maldita.es/malditobulo/"
+  },
+        "Media Wise": {
+    "rss": "https://www.poynter.org/mediawise/rss",
+    "link": "https://www.poynter.org/mediawise/"
+  },
+        "Newsmeter": {
+    "rss": "https://newsmeter.in/feed/",
+    "link": "https://newsmeter.in/"
+  },
+        "Observador": {
+    "rss": "https://observador.pt/rss",
+    "link": "https://observador.pt/"
+  },
+        "The Quint": {
+    "rss": "https://www.thequint.com/feed",
+    "link": "https://www.thequint.com/"
+  },
+        "T.V. Today Network Ltd.": {
+    "rss": "https://www.indiatoday.in/taxonomy/term/1792990/feed",
+    "link": "https://www.indiatoday.in/fact-check"
+  },
+        "Science Feedback": {
+    "rss": "https://sciencefeedback.co/rss",
+    "link": "https://sciencefeedback.co/"
+  },
+        "TheJournal.ie FactCheck": {
+    "rss": "view-source:https://www.thejournal.ie/factcheck/feed/",
+    "link": "https://www.thejournal.ie/factcheck/news/"
+  },
+        "VoxUkraine": {
+    "rss": "https://voxukraine.org/en/voxcheck-en/rss",
+    "link": "https://voxukraine.org/en/voxcheck-en/"
+  },
+        "AFP Fact Checking": {
+    "link": "https://www.afp.com/fr/plateforme-de-linfo"
+  },
+  "AFP Fact Checking": {
+    "link": "https://www.afp.com/en/news-hub"
+  },
+  "AFP Fact Checking": {
+    "link": "https://www.afp.com/pt"
+  },
+  "AFP Fact Checking": {
+    "link": "https://www.afp.com/es"
+  },
+  "AFP Fact Checking": {
+    "link": "https://www.afp.com/ar/news-hub"
+  },
+     "Décrypteurs": {
+  "link": "https://ici.radio-canada.ca/decrypteurs"
+  },
 ]
 
 
