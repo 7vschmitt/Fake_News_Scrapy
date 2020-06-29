@@ -8,6 +8,13 @@ from datetime import datetime
 #https://github.com/holwech/NewsScraper
 #https://holwech.github.io/blog/Automatic-news-scraper/ (with explanation)
 
+#Only for following languages:
+#1. Spanish
+#2. French
+#3. Portuguese
+#4. German
+#5. English
+
 # Set the limit for number of articles to download
 LIMIT = 1000 #can also be higher
 
